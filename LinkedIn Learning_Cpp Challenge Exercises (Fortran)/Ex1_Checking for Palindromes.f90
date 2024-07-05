@@ -4,6 +4,9 @@
 ! If yes --> Palindromes (e.g level, step onno pets)
 ! If no --> not Palindromes (e.g don't nod)
     
+! Note to self, before and after running script, to prevent MS VS linking errors during compilation due to multiple files present: 
+! Solution Explorer --> r/click on file name --> properties --> Toggle 'Exclude from build'
+    
     PROGRAM Ex1_PalindromeCheck
     
         implicit none

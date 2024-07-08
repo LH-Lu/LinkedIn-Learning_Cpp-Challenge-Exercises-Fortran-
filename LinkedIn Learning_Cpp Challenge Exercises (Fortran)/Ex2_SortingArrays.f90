@@ -8,6 +8,8 @@
         
         implicit none
         
+        public :: ArraySort
+        
     CONTAINS
         subroutine ArraySort (arr, ArrSize, IsDescend)
         

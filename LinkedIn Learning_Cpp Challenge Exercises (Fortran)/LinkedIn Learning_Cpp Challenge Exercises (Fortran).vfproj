@@ -84,7 +84,12 @@
 			<FileConfiguration Name="Release|x64" ExcludedFromBuild="true"/>
 			<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true"/>
 			<FileConfiguration Name="Release|Win32" ExcludedFromBuild="true"/></File>
-		<File RelativePath=".\Ex7_OOP.f90"/></Filter>
+		<File RelativePath=".\Ex7_OOP.f90">
+			<FileConfiguration Name="Debug|Win32" ExcludedFromBuild="true"/>
+			<FileConfiguration Name="Release|x64" ExcludedFromBuild="true"/>
+			<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true"/>
+			<FileConfiguration Name="Release|Win32" ExcludedFromBuild="true"/></File>
+		<File RelativePath=".\Ex8_IPAddressChecker.f90"/></Filter>
 	</Files>
 	<Globals/>
 </VisualStudioProject>

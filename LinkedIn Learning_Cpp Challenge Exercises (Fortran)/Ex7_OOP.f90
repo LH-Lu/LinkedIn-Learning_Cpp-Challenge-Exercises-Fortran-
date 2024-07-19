@@ -106,16 +106,16 @@ PROGRAM Ex7_FortranOOP
     ! Get user input
     print *, "Enter value of Complex Number 1: "
     print '(A,\)', "Real Component: "
-    read (*, '(F)') Complex1%Re
+    read (*, *) Complex1%Re
     print '(A,\)', "Imaginary Component: "
-    read (*, '(F)') Complex1%Im
+    read (*, *) Complex1%Im
     print *, " " ! new line
     
     print *, "Enter value of Complex Number 2: "
     print '(A,\)', "Real Component: "
-    read (*, '(F)') Complex2%Re
+    read (*, *) Complex2%Re
     print '(A,\)', "Imaginary Component: "
-    read (*, '(F)') Complex2%Im
+    read (*, *) Complex2%Im
     print *, " " ! new line
     
     Complex3 = Complex1 + Complex2
